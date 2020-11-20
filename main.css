@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  /* font-family: sans-serif; */
+  font-weight: 400;
+}
+
+.background {
+  background-image: url("https://hyperpix.net/wp-content/uploads/2020/04/cinema-paradiso-logo-font-free-download.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:top;
+  height: 100%;
+  opacity: 0.6;
+  margin: 0;
+  position: relative;
+}
+
+.greet {
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  top: 87%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.subtitle {
+  text-shadow: rgba(0, 0, 0, 0.5) 0px 2px 6px;
+  color: rgb(47, 50, 59);
+  font-size: 64px;
+}
+
+.infoBlock {
+    background-color: rgba(0, 0, 0, 0.856);
+    color: blanchedalmond;
+    text-align: justify;
+  }
+  
+.infoBlock h1 {
+    margin: 0;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-weight: 200;
+  }
+
+.infoBlock h1::after {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 3px;
+    margin: 5px auto 5px;
+    background: rgb(198, 240, 247);
+}
+
+.information {
+    padding-top: 0;
+    padding-bottom: 1em;
+  }
+
+.information p {
+    text-align: center;
+    margin: 0;
+}
+  
+.price{
+    padding: 10px 0 0;
+    text-align: left;
+    display: inline-block;
+    margin: 0;
+  }
+
+.priceline {
+    display: block;
+    border-bottom: 1px dashed whitesmoke;
+}
+
+.entities td, .entities th{
+    margin: 0;
+    border: 1px solid #ddd;
+    padding: 8px;
+    background-color: white;
+}
+  
